@@ -62,3 +62,4 @@ style_text(text)
 
 * re-export all exported functions from {styler}, `purrr::partial()` style guide
   arguments with third-party style guide.
+* implement `more_args` and `transformer_drop` in `create_style_guide()`.
