@@ -33,13 +33,15 @@ add_semi_colon <- function(pd_nested) {
 #' Otherwise, does not do anything.
 #' @export
 semicolon_style <- function() {
+  args <- as.list(environment())
   styler::create_style_guide(
     token = tibble::lst(add_semi_colon),
     use_raw_indention = TRUE,
     reindention = styler::tidyverse_reindention(),
     style_guide_name = "semicoloner::semicolon_style@https://github.com/lorenzwalthert",
     # please choose a name that matches the definition in `?create_style_guide()`
-    style_guide_version = "0.0.0.9000"
+    style_guide_version = "0.0.0.9000",
+    more_specs_style_guide = args
   )
 }
 
