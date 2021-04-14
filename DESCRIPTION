@@ -1,12 +1,14 @@
 Package: semicoloner
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    c(person(given = "Lorenz",
+             family = "Walthert",
+             role = c("aut", "cre"),
+             email = "lorenz.walthert@icloud.com"),
+      person(given = "Ardy",
+             family = "Davarifar",
+             role = "aut"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 URL: https://github.com/lorenzwalthert/semicoloner
